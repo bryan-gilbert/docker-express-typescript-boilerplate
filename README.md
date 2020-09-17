@@ -55,6 +55,13 @@ $ cd your-app-name
 $ npm i
 ```
 
+To run in development the project uses ts-node.  May need to install ```ts-node``` if you do not have it installed globally.  ts-node can be done locally in your project
+```
+ npm install -D ts-node
+```
+See https://www.npmjs.com/package/ts-node
+
+
 #### 3. Update repository name in `.github/workflows/latest.yml`
 
 ```
